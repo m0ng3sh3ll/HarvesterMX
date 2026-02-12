@@ -13,6 +13,7 @@ It captures **ALL** emails sent to any user at your domain (`*@yourdomain.com`) 
 -   **Social Engineering Campaigns**: Receiving replies from multiple phishing aliases without managing individual accounts.
 -   **Account Registration**: Creating multiple accounts on target platforms using unique email addresses (e.g., `admin@yourdomain.com`, `support@yourdomain.com`) that all route to one place.
 -   **C2 Infrastructure**: Receiving callbacks or data exfiltration via SMTP.
+
 *Note: Does not send emails, only receives them.*
 
 ## 🚀 Features
@@ -99,3 +100,4 @@ Configure your mail client to access the loot:
 
 ---
 *Disclaimer: This tool is for authorized testing and educational purposes only. Use responsibly.*
+
