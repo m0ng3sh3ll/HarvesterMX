@@ -95,8 +95,10 @@ Configure seu cliente de email para acessar o loot:
 ├── config/             # Configs Postfix/Dovecot (Geradas)
 ├── mail_data/          # Armazenamento persistente de emails
 ├── letsencrypt/        # Certificados SSL
+├── supervisord.conf    # Gerenciador de processos (Postfix/Dovecot/Rsyslog)
 └── Dockerfile          # Definição da imagem do servidor
 ```
 
 ---
 *Aviso Legal: Esta ferramenta é apenas para testes autorizados e fins educacionais. Use com responsabilidade.*
+
