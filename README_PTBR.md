@@ -1,4 +1,4 @@
-# 📧 Catch-All Docker Mail Server (Red Team Infrastructure)
+# 🌾 HarvestMX - Catch-All Docker Mail Server
 
 ![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg) ![Security](https://img.shields.io/badge/Status-Offensive_Ready-red.svg) ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
@@ -6,13 +6,14 @@
 
 ## 💀 Propósito
 
-Este projeto fornece um **Servidor de Email Catch-All Dockerizado**, desenhado para operações de Segurança Ofensiva, engajamentos de Red Team e investigações OSINT.
+**HarvestMX** é um **Orquestrador de Deploy Automatizado** para um Servidor de Email Catch-All Dockerizado, desenhado para operações de Segurança Ofensiva, engajamentos de Red Team e investigações OSINT.
 
 Ele captura **TODOS** os emails enviados para qualquer usuário em seu domínio (`*@seudominio.com`) e os entrega em uma única caixa de entrada. Isso é crítico para:
 
 -   **Campanhas de Engenharia Social**: Receber respostas de múltiplos aliases de phishing sem gerenciar contas individuais.
 -   **Registro de Contas**: Criar múltiplas contas em plataformas alvo usando endereços de email únicos (ex: `admin@seudominio.com`, `suporte@seudominio.com`) que roteiam para o mesmo lugar.
 -   **Infraestrutura C2**: Receber callbacks ou exfiltração de dados via SMTP.
+
 *Nota: Não faz o envio de emails, apenas o recebimento.*
 
 ## 🚀 Funcionalidades
